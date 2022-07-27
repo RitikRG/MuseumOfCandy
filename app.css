@@ -2,7 +2,18 @@
 :root{
     --body-background:#f5d9d5;
     --primary-text-color:#ea1c2c;
+} 
+::-webkit-scrollbar{
+    width: 20px;
+    scroll-behavior: smooth;
 }
+::-webkit-scrollbar-track{
+    background-color: var(--body-background);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-text-color);
+}
+#main-navbar:scroll
 body{
     background-color: var(--body-background);
     font-family: 'Nunito', sans-serif;
@@ -39,19 +50,32 @@ a#logo{
 span.slash{
     color: var(--primary-text-color);
 }
-#section-2-content{
+#section-2-content, #section-3-content, #section-4-content, #section-5-content{
     color: var(--primary-text-color);
     align-items: center;
     
 }
-#section-2-content h3{
+#section-2-content h3, #section-3-content h3, #section-4-content h3, #section-5-content h3{
     text-transform: capitalize;
+}
+#section-3-content{
+    padding-top:
 }
 div#section-2-img-1 {
     background: center/cover url(/images/towfiqu-barbhuiya-V4Kx2NoZ3dE-unsplash.jpg);
 }
 div#section-2-img-2 {
     background: center/cover url(/images/towfiqu-barbhuiya-V4Kx2NoZ3dE-unsplash.jpg);
+}
+div#section-3-img{
+    background: center/cover url(/images/elena-koycheva-PFzy4N0_R3M-unsplash.jpg);
+    min-height: 45vh;
+}
+div#section-4-img-1, div#section-4-img-2{
+    background: center/cover url(/images/ian-dooley-TLD6iCOlyb0-unsplash.jpg);
+}
+div#section-5-img{
+    background: center/cover url(/images/la-albuquerque--xq5BTa2vSk-unsplash.jpg);
 }
 @media (max-width:800px){
     #moc{
@@ -76,14 +100,43 @@ div#section-2-img-2 {
     #section-2-img-2{
         height: 50vh;
     }
+    #section-4-img-1{
+        display: none;
+    }
+    #section-4-img-2{
+        height: 50vh;
+    }
+    #section-5-img{
+        height: 50vh;
+    }
 
 }
 @media(min-width:575px){
     #section-2-img-2{
         display: none;
     }
+    #section-4-img-2{
+        display: none;
+    }
     #section-2-content{
         padding-top:7rem!important;
         min-height: 50vh;
+        padding-bottom: 5rem !important;
+    }
+    #section-3-content{
+        padding-top: 7rem !important;
+        padding-bottom: 5rem !important;
+    }
+    #section-4-content{
+        min-height: 40vh;
+        padding-top: 6rem!important;
+        padding-bottom: 5rem !important;
+    }
+    #section-5-content{
+        min-height: 40vh;
+        padding-top: 6rem !important;
+    }
+    #section-2-img-1, #section-2-img-2, #section-3-img{
+        
     }
 }
