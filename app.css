@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200;1,400;1,700&display=swap');
+:root{
+    --body-background:#f5d9d5;
+    --primary-text-color:#ea1c2c;
+}
+body{
+    background-color: var(--body-background);
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+#main-navbar, a#logo{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+a#logo{
+    color: var(--primary-text-color);
+}
+#navbarSupportedContent ul li a{
+    color: white;
+}
+#navbarSupportedContent ul li a.nav-link:hover{
+    color: var(--primary-text-color);
+}
+#moc-list{
+    list-style: none;
+    padding: 0%;
+}
+#moc{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+#header-img{
+    
+    background: center/cover url(/images/heather-ford-Fq54FqucgCE-unsplash.jpg);
+}
+span.slash{
+    color: var(--primary-text-color);
+}
+#section-2-content{
+    color: var(--primary-text-color);
+    align-items: center;
+    
+}
+#section-2-content h3{
+    text-transform: capitalize;
+}
+div#section-2-img-1 {
+    background: center/cover url(/images/towfiqu-barbhuiya-V4Kx2NoZ3dE-unsplash.jpg);
+}
+div#section-2-img-2 {
+    background: center/cover url(/images/towfiqu-barbhuiya-V4Kx2NoZ3dE-unsplash.jpg);
+}
+@media (max-width:800px){
+    #moc{
+        font-size: 1.75rem;
+    }
+}
+@media (max-width:712px){
+    #moc{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:575px){
+    #header-heading{
+        display: none;
+    }
+    #header-img{
+        height: 60vh;
+    }
+    #section-2-img-1{
+        display: none;
+    }
+    #section-2-img-2{
+        height: 50vh;
+    }
+
+}
+@media(min-width:575px){
+    #section-2-img-2{
+        display: none;
+    }
+    #section-2-content{
+        padding-top:7rem!important;
+        min-height: 50vh;
+    }
+}
