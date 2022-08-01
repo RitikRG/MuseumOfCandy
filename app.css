@@ -45,7 +45,7 @@ a#logo{
 }
 #header-img{
     
-    background: center/cover url(/images/heather-ford-Fq54FqucgCE-unsplash.jpg);
+    background: center/cover url(images/heather-ford-Fq54FqucgCE-unsplash.jpg);
 }
 span.slash{
     color: var(--primary-text-color);
@@ -62,20 +62,20 @@ span.slash{
     padding-top:
 }
 div#section-2-img-1 {
-    background: center/cover url(/images/towfiqu-barbhuiya-V4Kx2NoZ3dE-unsplash.jpg);
+    background: center/cover url(images/towfiqu-barbhuiya-V4Kx2NoZ3dE-unsplash.jpg);
 }
 div#section-2-img-2 {
-    background: center/cover url(/images/towfiqu-barbhuiya-V4Kx2NoZ3dE-unsplash.jpg);
+    background: center/cover url(images/towfiqu-barbhuiya-V4Kx2NoZ3dE-unsplash.jpg);
 }
 div#section-3-img{
-    background: center/cover url(/images/elena-koycheva-PFzy4N0_R3M-unsplash.jpg);
+    background: center/cover url(images/elena-koycheva-PFzy4N0_R3M-unsplash.jpg);
     min-height: 45vh;
 }
 div#section-4-img-1, div#section-4-img-2{
-    background: center/cover url(/images/ian-dooley-TLD6iCOlyb0-unsplash.jpg);
+    background: center/cover url(images/ian-dooley-TLD6iCOlyb0-unsplash.jpg);
 }
 div#section-5-img{
-    background: center/cover url(/images/la-albuquerque--xq5BTa2vSk-unsplash.jpg);
+    background: center/cover url(images/la-albuquerque--xq5BTa2vSk-unsplash.jpg);
 }
 @media (max-width:800px){
     #moc{
