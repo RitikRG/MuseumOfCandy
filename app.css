@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200;1,400;1,700&display=swap');
 :root{
-    --body-background:#f5d9d5;
-    --primary-text-color:#ea1c2c;
+    --body-background: #f5d9d5;
+    --primary-text-color: #ea1c2c;
 } 
 ::-webkit-scrollbar{
     width: 20px;
